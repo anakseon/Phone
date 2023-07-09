@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class PhoneBook{
-    publcontactsc HashMap<String, ArrayList> contacts = new HashMap();
+    public static HashMap<String, ArrayList> contacts = new HashMap();
 public static void addContact(String name, String phonenumber){
     if (contacts.contaisKey(name)){
         ArrayList phoneNumbers = contacts.get(name);
